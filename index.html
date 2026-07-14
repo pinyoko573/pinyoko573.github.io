@@ -1,30 +1,93 @@
 <html>
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <title>indekkusu.app</title>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <title>indekkusu.app</title>
 </head>
-<body>
-    <div class="d-flex justify-content-center align-items-center h-100" style="background-color: #e9edf0;">
-      <div class="text-center">
-        <div class="p-4">
-          <h1>indekkusu.app</h1>
-          <p>This page brings together my projects, profiles, and notes in one place.</p>
+
+<body style="background-color: #e9edf0;">
+  <div class="d-flex justify-content-center align-items-center">
+    <div class="text-center">
+      <div class="p-4 mt-5">
+        <h1>indekkusu.app</h1>
+        <p>This page brings together my projects, profiles, and notes in one place.</p>
+      </div>
+
+      <div class="d-flex flex-wrap justify-content-center align-items-start">
+        <div class="px-3 mb-3">
+          <h2>English</h2>
+          <div class="d-flex flex-wrap justify-content-center">
+            <a href="https://github.com/pinyoko573" class="m-1">
+              <button class="btn btn-outline-dark btn-lg"><i class="fa fa-github"></i> Github</button>
+            </a>
+            <a href="https://www.linkedin.com/in/chua-wei" class="m-1">
+              <button class="btn btn-outline-dark btn-lg"><i class="fa fa-linkedin-square"></i> LinkedIn</button>
+            </a>
+            <a href="https://medium.com/@indekkusu" class="m-1">
+              <button class="btn btn-outline-dark btn-lg"><i class="fa fa-medium"></i> Medium</button>
+            </a>
+          </div>
         </div>
-        <div>
-          <a href="https://github.com/pinyoko573"><button class="btn btn-outline-dark btn-lg"><i class="fa fa-github fa-lg"></i> Github</button></a>
-          <a href="https://www.linkedin.com/in/chua-wei"><button class="btn btn-outline-dark btn-lg"><i class="fa fa-linkedin-square fa-lg"></i> LinkedIn</button></a>
-          <a href="https://medium.com/@indekkusu"><button class="btn btn-outline-dark btn-lg"><i class="fa fa-medium fa-lg"></i> Medium</button></a>
-          <a href="https://note.com/indekkusu573"><button class="btn btn-outline-dark btn-lg"><img src="assets/note.svg" alt="Note" width="24" height="24"> Note</button></a>
+
+        <div class="px-3 mb-3">
+          <h2>日本語</h2>
+          <div class="d-flex flex-wrap justify-content-center">
+            <a href="https://x.com/indekkusu573" class="m-1">
+              <button class="btn btn-outline-dark btn-lg"><i class="fa fa-twitter"></i> X</button>
+            </a>
+            <a href="https://note.com/indekkusu573" class="m-1">
+              <button class="btn btn-outline-dark btn-lg d-inline-flex align-items-center">
+                <img src="assets/note.svg" alt="" width="20" height="20" class="mr-2"> Note
+              </button>
+            </a>
+          </div>
         </div>
       </div>
-    </div>
 
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.bundle.min.js"></script>
+      <div class="p-4 card-group d-flex flex-wrap justify-content-center">
+        <a href="https://github.com/pinyoko573/security-news-discord-bot" class="card mx-1 text-dark text-decoration-none" style="max-width: 14rem;">
+          <img class="card-img-top" height="100rem" style="object-fit: cover;"
+            src="https://raw.githubusercontent.com/pinyoko573/security-news-discord-bot/refs/heads/main/poc.jpg"
+            alt="security-news-discord-bot">
+          <div class="card-body">
+            <h6 class="card-title">security-news-discord-bot</h6>
+            <small class="card-text">Summarises cybersecurity news using AI and sends to Discord</small>
+          </div>
+        </a>
+
+        <a href="https://medium.com/@indekkusu/building-a-custom-integration-in-elastic-f526ecaa738a" class="card mx-1 text-dark text-decoration-none" style="max-width: 14rem;">
+          <img class="card-img-top" height="100rem" style="object-fit: cover;"
+            src="https://miro.medium.com/v2/resize:fit:1100/format:webp/1*Bula6Xh2a9JpPsh8OQdCBg.png"
+            alt="Building a Custom Integration in Elastic">
+          <div class="card-body">
+            <h6 class="card-title">Building a Custom Integration in Elastic</h6>
+            <small class="card-text">This article explains how to build a custom integration in Elastic Stack</small>
+          </div>
+        </a>
+
+        <a href="https://medium.com/@indekkusu/what-microsoft-defender-for-cloud-ai-catches-and-what-slips-through-5dcc26c83df9" class="card mx-1 text-dark text-decoration-none" style="max-width: 14rem;">
+          <img class="card-img-top" height="100rem" style="object-fit: cover;"
+            src="https://miro.medium.com/v2/resize:fit:1100/format:webp/1*iuTOZBTlUh73WQNKceH-6A.png"
+            alt="Microsoft Defender for Cloud AI">
+          <div class="card-body">
+            <h6 class="card-title">Microsoft Defender for Cloud AI</h6>
+            <small class="card-text">This article covers attacks from OWASP Top 10 for LLM that MDC detects/fails to
+              detect, and defenses that Microsoft Foundry covers/does not cover</small>
+          </div>
+        </a>
+
+      </div>
+
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
